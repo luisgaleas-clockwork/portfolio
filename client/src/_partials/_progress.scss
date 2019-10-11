@@ -1,0 +1,113 @@
+$react: #06d6a0;
+$javascript: #fcd307;
+@media only screen and (min-width: 320px) {
+  .skill-flex{
+      display: flex;
+      width:80%;
+      margin:auto;
+      h5{
+          width:50px;
+          padding: 20px 0px;
+      }
+  }
+  .container {
+    margin: 10px auto;
+    width: 60%;
+    text-align: center;
+  }
+
+  .progress2 {
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  }
+  .size {
+    height: 18px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+  }
+
+  .html {
+    width: 80%;
+    background-color: #ef476f;
+    animation: html 6s;
+  }
+
+  .Scss {
+    width: 70%;
+    background-color: #1d06f3;
+    animation: Scss 6s;
+  }
+  .javascript {
+    width: 60%;
+    background-color: $javascript;
+    animation: javascript 6s;
+  }
+  .react {
+    width: 65%;
+    background-color: $react;
+    animation: react 6s;
+  }
+
+  .mysql {
+    width: 75%;
+    background-color: rgb(255, 103, 2);
+    animation: mysql 6s;
+  }
+
+  @keyframes html {
+    0% {
+      width: 5%;
+      background-color: #f9bcca;
+    }
+    100% {
+      width: 80%;
+      background-color: #ef476f;
+    }
+  }
+  @keyframes Scss {
+    0% {
+      width: 5%;
+      background-color: #604efa;
+    }
+    100% {
+      width: 80%;
+      background-color: #1d06f3;
+    }
+  }
+  @keyframes javascript {
+    0% {
+      width: 5%;
+      background-color: #f7e070;
+    }
+    100% {
+      width: 65%;
+      background-color: $javascript;
+    }
+  }
+}
+
+// @keyframes react {
+//   0% {
+//     width: 5%;
+//     background-color: rgb(118, 212, 187);
+//   }
+//   100% {
+//     width: 60%;
+//     background-color: $react;
+//   }
+// }
+
+// @keyframes mysql {
+//   0% {
+//     width: 5%;
+//     background-color: rgb(255, 190, 152);
+//   }
+//   100% {
+//     width: 75%;
+//     background-color: rgb(255, 103, 2);
+//   }
+// }

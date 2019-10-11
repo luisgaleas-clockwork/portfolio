@@ -1,0 +1,124 @@
+@import "./_partials/Utility/reset.scss";
+@import "./_partials/Utility/navbar.scss";
+@import "./_partials/me";
+@import "./_partials/project";
+@import "./_partials/about.scss";
+@import "./_partials/skill.scss";
+@import "./_partials/contact";
+@import "./_partials/Utility/footer";
+
+@import url("https://fonts.googleapis.com/css?family=Cabin|Oswald|Righteous&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 320px) {
+  .main-bg {
+    background-color: #292b42;
+  }
+  h1 {
+    font-size: 1.6em;
+    padding: 5px;
+    border-bottom: 3px solid whitesmoke;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+  }
+  h2 {
+    font-size: 1.2em;
+    padding: 5px;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  h1,
+  h2,
+  h3,
+  a,
+  h6 {
+    font-family: "Righteous", cursive;
+  }
+  p {
+    font-size: 0.8em;
+    line-height: 1.2;
+    font-family: "Cabin", sans-serif;
+  }
+}
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.7em;
+    padding: 10px;
+    border-bottom: 5px solid whitesmoke;
+    width: 50%;
+    margin: auto;
+  }
+  h2 {
+    font-size: 1.8em;
+    padding: 10px;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.4em;
+    padding: 0px 25px;
+    line-height: 1.5;
+  }
+  h6 {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3em;
+    padding: 5px;
+    border-bottom: 5px solid whitesmoke;
+    width: 50%;
+    margin: auto;
+  }
+  h2 {
+    font-size: 2em;
+    padding: 10px;
+  }
+  h3 {
+    font-size: 3em;
+  }
+  h4 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.4em;
+    padding: 15px 40px;
+    line-height: 1.5;
+  }
+  h6 {
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  footer {
+    padding: 0;
+    p {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+    }
+    h3 {
+      font-size: 1.5em;
+    }
+    i {
+      padding: 0;
+    }
+  }
+  .info-list {
+    padding: 0;
+    p {
+      padding: 10vh 0;
+    }
+  }
+}
+.main-page {
+  background: #292b42;
+}

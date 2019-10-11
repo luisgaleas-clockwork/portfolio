@@ -1,0 +1,109 @@
+
+@media only screen and (min-width: 320px) {
+  .skill-bg {
+    background: #292B42;
+    color: whitesmoke;
+    h3 {
+      margin-top: 3vh;
+    }
+    h4 {
+      margin-top: 0.9vh;
+    }
+  }
+  .skill-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding:5vh 0;
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    padding:5px 0;
+    
+    i{
+      font-size: 3em;
+    }
+    h6{
+      padding: 5px 0;
+    }
+  }
+  .fa-js {
+    color: #fcd307;
+  }
+  .fa-react {
+    color: #06d6a0;
+  }
+  .fa-html5 {
+    color: #ff9a02;
+  }
+  .fa-sass {
+    color: #ef476f;
+  }
+  .fa-database {
+    color: #a806f3;
+  }
+  .fa-css3-alt {
+    color: #1d06f3;
+  }
+  .fa-node {
+    color: #26AD45;
+  }
+  .fa-git-alt{
+    color: #FF7802;
+  }
+  .fa-github{
+    color:#222 ;
+  }
+  .fa-sitemap{
+    color:#15A7D8 ;
+  }
+}
+
+@media only screen and (min-width: 768px) {  
+
+.icon{
+  width:20%;
+  i{
+    font-size:5em;
+  }
+}
+}
+
+@media only screen and (min-width: 1400px) {
+  .skill-bg {
+    padding: 10vh 0;
+    h3 {
+      color: whitesmoke;
+    }
+  }
+  .skill-flex {
+    width: 90%;
+  }
+  .icon {
+    clip-path: polygon(
+      0% 15%,
+      15% 15%,
+      15% 0%,
+      85% 0%,
+      85% 15%,
+      100% 15%,
+      100% 85%,
+      85% 85%,
+      85% 100%,
+      15% 100%,
+      15% 85%,
+      0% 85%
+    );
+    padding: 30px;
+    width: 18%;
+    margin-top: 3vh;
+    background: #f2f2f2;
+    color: black;
+  }
+}

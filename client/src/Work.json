@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Tic-Tac-Toe",
+        "image": "https://i.imgur.com/xGEDp70.png",
+        "github": "https://github.com/luisgaleas-clockwork/Tic-Tac-Toe",
+        "webpage": "https://inspiring-pike-6a87a2.netlify.com/",
+        "info":"A Tic-Tac-Toe game made From React.js for R2H. This is a challenge made during react week displaying what I learned in react.js."
+    },
+    {
+        "name": "Horizon Beyond",
+        "image": "https://i.imgur.com/42mN0zx.png",
+        "github": "https://github.com/luisgaleas-clockwork/Horizon-Beyond-V2",
+        "webpage": "https://horizon-beyond.netlify.com",
+        "info":"Third phase of ecommerce project Horizon Beyond using React.js, mySQL, Node.js, Express, Chia, and Mocha made during Road 2 Hire."
+    },
+    {
+        "name": "Sydney Australia",
+        "image": "https://i.imgur.com/nMplrC7.png",
+        "github": "https://github.com/luisgaleas-clockwork/Travel-Australia",
+        "webpage": "http://travel-australiua.netlify.com",
+        "info":"A HTML and CSS webpage made during the road to hire Gateway."
+    },
+    {
+        "name": "Calculator",
+        "image": "https://i.imgur.com/jQj4SW1.png",
+        "github": "https://github.com/luisgaleas-clockwork/Calculator",
+        "webpage": "https://this-is-a-calculator.netlify.com/",
+        "info":"Javascript calculator made during road 2 hire."
+    }
+]

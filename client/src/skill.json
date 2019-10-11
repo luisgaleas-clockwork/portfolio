@@ -1,0 +1,52 @@
+[
+    {
+        "skill": "HTML",
+        "icon":"fab fa-html5"
+       
+    },
+    {
+        "skill": "CSS",
+        "icon":"fab fa-css3-alt"
+       
+    },
+    {
+        "skill": "Sass",
+        "icon":"fab fa-sass"
+
+    },
+    {
+        "skill": "Javascript",
+        "icon":"fab fa-js"
+  
+    },
+    {
+        "skill": "React",
+        "icon":"fab fa-react"
+
+    },
+    {
+        "skill": "Node.js",
+        "icon":"fab fa-node"
+
+    },
+    {
+        "skill": "MySQL",
+        "icon":"fas fa-database"
+
+    },
+    {
+        "skill": "Git",
+        "icon":"fab fa-git-alt"
+  
+    },
+    {
+        "skill": "GitHub",
+        "icon":"fab fa-github"
+  
+    },
+    {
+        "skill": "API Dev",
+        "icon":"fas fa-sitemap"
+
+    }
+]

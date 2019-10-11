@@ -1,0 +1,126 @@
+@media only screen and (min-width: 320px) {
+  .me-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    overflow: visible;
+    background-image: url("https://images.unsplash.com/photo-1557515126-1bf9ada5cb93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 10vh;
+  }
+  .me-text-container {
+    background: #292B42;
+    width: 100%;
+    padding: 80px 0px 30px 0px;
+    text-align: center;
+  }
+  .me-img-container {
+    width: 60%;
+    height: 15vh;
+    z-index: 1;
+    img {
+      width: 100%;
+      border-radius: 50%;
+      margin: auto;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .me-card {
+    padding-top: 15vh;
+  }
+  .me-img-container {
+    width: 35%;
+    height: 70px;
+    img {
+      width: 100%;
+      border-radius: 50%;
+      margin: auto;
+    }
+  }
+  .me-text-container {
+    width: 100%;
+    padding: 150px 0px 30px 0px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .me-card {
+    padding-top: 15vh;
+  }
+  .me-img-container {
+    width: 35%;
+    height: 150px;
+    img {
+      width: 100%;
+      border-radius: 50%;
+      margin: auto;
+    }
+  }
+  .me-text-container {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    h1 {
+      margin-top: 10vh;
+    }
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  .me-card {
+    padding:30vh 20vw 0 20vw;
+  }
+  .me-img-container {
+    width: 25%;
+    height: 100px;
+ 
+    img {
+      width: 100%;
+      border-radius: 50%;
+      margin: auto;
+
+    }
+  }
+  .me-text-container {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    width: 100%;
+    text-align: center;
+    h1 {
+      margin-top: 10vh;
+    }
+  }
+}
+
+@media only screen and (min-width:1400px) {
+
+
+  .me-card {
+    padding:30vh 20vw 0 20vw;
+  }
+  .me-img-container {
+    width: 30%;
+    height: 170px;
+ 
+    img {
+      width: 100%;
+      border-radius: 50%;
+      margin: auto;
+
+    }
+  }
+  .me-text-container {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    width: 100%;
+    text-align: center;
+    h1 {
+      margin-top: 5vh;
+    }
+  }
+}
