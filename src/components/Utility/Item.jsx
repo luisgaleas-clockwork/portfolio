@@ -8,7 +8,11 @@ const ProjectItems = (props) => {
                 <div className="project__image_container">
                     <img src={work.image} />
                     <div className="project__text_container">
-                        <a href={work.github}>{work.name}</a>
+                        <h3>{work.name}</h3>
+                        <div>
+                        <a href={work.github}>Github</a>
+                        <a href={work.webpage}>Webpage</a>
+                        </div>
                     </div>
                 </div>
             </div>

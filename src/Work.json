@@ -26,5 +26,19 @@
         "github": "https://github.com/luisgaleas-clockwork/Calculator",
         "webpage": "https://this-is-a-calculator.netlify.com/",
         "info":"Javascript calculator made during road 2 hire."
+    },
+    {
+        "name": "Horizon-Beyond PWA",
+        "image": "./images/mobile.png",
+        "github": "https://github.com/luisgaleas-clockwork/Horizon-mobile",
+        "webpage": "https://pwa-horizon.herokuapp.com/",
+        "info":"Javascript calculator made during road 2 hire."
+    },
+    {
+        "name": "LifeSport Hack-a-thon",
+        "image": "./images/lifesport.png",
+        "github": "https://github.com/luisgaleas-clockwork/Life_Sports_Singapore",
+        "webpage": "https://teamsingaporelifesports.herokuapp.com/",
+        "info":"Javascript calculator made during road 2 hire."
     }
 ]
