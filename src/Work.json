@@ -1,19 +1,5 @@
 [
     {
-        "name": "Tic-Tac-Toe",
-        "image": "https://i.imgur.com/xGEDp70.png",
-        "github": "https://github.com/luisgaleas-clockwork/Tic-Tac-Toe",
-        "webpage": "https://inspiring-pike-6a87a2.netlify.com/",
-        "info":"A Tic-Tac-Toe game made From React.js for R2H. This is a challenge made during react week displaying what I learned in react.js."
-    },
-    {
-        "name": "Horizon Beyond",
-        "image": "https://i.imgur.com/42mN0zx.png",
-        "github": "https://github.com/luisgaleas-clockwork/Horizon-Beyond-V2",
-        "webpage": "https://horizon-beyond.netlify.com",
-        "info":"Third phase of ecommerce project Horizon Beyond using React.js, mySQL, Node.js, Express, Chia, and Mocha made during Road 2 Hire."
-    },
-    {
         "name": "Sydney Australia",
         "image": "https://i.imgur.com/nMplrC7.png",
         "github": "https://github.com/luisgaleas-clockwork/Travel-Australia",
@@ -28,6 +14,34 @@
         "info":"Javascript calculator made during road 2 hire."
     },
     {
+        "name": "Tic-Tac-Toe",
+        "image": "https://i.imgur.com/xGEDp70.png",
+        "github": "https://github.com/luisgaleas-clockwork/Tic-Tac-Toe",
+        "webpage": "https://inspiring-pike-6a87a2.netlify.com/",
+        "info":"A Tic-Tac-Toe game made From React.js for R2H. This is a challenge made during react week displaying what I learned in react.js."
+    },
+    {
+        "name": "Comment-Box",
+        "image": "./images/comment.png",
+        "github": "https://github.com/luisgaleas-clockwork/Comment-box",
+        "webpage": "https://dreamy-almeida-160b22.netlify.com/",
+        "info":"Javascript calculator made during road 2 hire."
+    },
+    {
+        "name": "Horizon Beyond",
+        "image": "https://i.imgur.com/42mN0zx.png",
+        "github": "https://github.com/luisgaleas-clockwork/Horizon-Beyond-V2",
+        "webpage": "https://horizon-beyond.netlify.com",
+        "info":"Third phase of ecommerce project Horizon Beyond using React.js, mySQL, Node.js, Express, Chia, and Mocha made during Road 2 Hire."
+    },
+    {
+        "name": "Horizon-Beyond MySQL",
+        "image": "./images/mobile.png",
+        "github": "https://github.com/luisgaleas-clockwork/horizon-beyond-MySQL",
+        "webpage": "https://dreamy-almeida-160b22.netlify.com/",
+        "info":"Javascript calculator made during road 2 hire."
+    },
+    {
         "name": "Horizon-Beyond PWA",
         "image": "./images/mobile.png",
         "github": "https://github.com/luisgaleas-clockwork/Horizon-mobile",
@@ -39,13 +53,6 @@
         "image": "./images/lifesport.png",
         "github": "https://github.com/luisgaleas-clockwork/Life_Sports_Singapore",
         "webpage": "https://teamsingaporelifesports.herokuapp.com/",
-        "info":"Javascript calculator made during road 2 hire."
-    },
-    {
-        "name": "Comment-Box",
-        "image": "./images/comment.png",
-        "github": "https://github.com/luisgaleas-clockwork/Comment-box",
-        "webpage": "https://dreamy-almeida-160b22.netlify.com/",
         "info":"Javascript calculator made during road 2 hire."
     }
 
