@@ -40,5 +40,13 @@
         "github": "https://github.com/luisgaleas-clockwork/Life_Sports_Singapore",
         "webpage": "https://teamsingaporelifesports.herokuapp.com/",
         "info":"Javascript calculator made during road 2 hire."
+    },
+    {
+        "name": "Comment-Box",
+        "image": "./images/comment.png",
+        "github": "https://github.com/luisgaleas-clockwork/Comment-box",
+        "webpage": "https://dreamy-almeida-160b22.netlify.com/",
+        "info":"Javascript calculator made during road 2 hire."
     }
+
 ]
