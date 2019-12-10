@@ -322,6 +322,18 @@ table {
     color: white;
   }
 
+  .link__buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 3vh;
+  }
+  .link__buttons a {
+    background: #F9DC5C;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
   .bar {
     background-color: #F9DC5C;
     height: 10px;
@@ -407,6 +419,11 @@ table {
   }
   .project__text_container a {
     font-size: 2em;
+    color: #292B42;
+    transition: 1s;
+  }
+  .project__text_container a:hover {
+    background: #e4b246;
   }
   .project__text_container p {
     font-size: 0.9em;

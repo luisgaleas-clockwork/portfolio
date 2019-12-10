@@ -7,6 +7,17 @@ $background: #292B42;
     background: $background;
     color:white;
   }
+  .link__buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    margin-top:3vh;
+    a{
+      background: #F9DC5C;
+      border-radius: 5px;
+      padding:5px;
+    }
+  }
   .bar {
     background-color: $yellow;
     height: 10px;
@@ -89,6 +100,11 @@ $background: #292B42;
     align-items:center;
     a {
       font-size: 2em;
+      color:$background;
+      transition: 1s;;
+    }
+    a:hover{
+      background: rgb(228, 178, 70);
     }
     p {
       font-size: .9em;
