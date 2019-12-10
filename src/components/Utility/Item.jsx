@@ -10,8 +10,8 @@ const ProjectItems = (props) => {
                     <div className="project__text_container">
                         <h3>{work.name}</h3>
                         <div className="link__buttons">
-                        <a href={work.github}>Github</a>
-                        <a href={work.webpage}>Check Out</a>
+                        <a href={work.github} target="_blank">Github</a>
+                        <a href={work.webpage} target="_blank">Check Out</a>
                         </div>
                     </div>
                 </div>
