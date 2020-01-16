@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Resume from '../../ResumeUpdated.pdf'
 
 
 class Navbar extends React.Component {
@@ -29,7 +28,7 @@ class Navbar extends React.Component {
                         <NavLink className="nav-link" to="/projects" activeClassName="active" onClick={this.closeFunction}>Projects</NavLink>
                         <NavLink className="nav-link" to="/skill" activeClassName="active" onClick={this.closeFunction}>Skills</NavLink>
                         <NavLink className="nav-link" to="/contact" activeClassName="active" onClick={this.closeFunction}>Contact</NavLink>
-                        <a className="nav-link" onClick={this.closeFunction} href={Resume} download>Resume</a>
+                        <a className="nav-link" onClick={this.closeFunction} href="./ResumeUpdated.pdf" download>Resume</a>
                 </div>
             </nav>
         )
