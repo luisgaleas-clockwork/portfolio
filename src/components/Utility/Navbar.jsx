@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Resume from '../../resume_luis.pdf'
+import Resume from '../../ResumeUpdated.pdf'
 
 
 class Navbar extends React.Component {
